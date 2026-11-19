@@ -1,10 +1,9 @@
 {
   "version": 1,
-  "updated": "2026-11-18T02:31:14.601Z",
+  "updated": "2026-11-19T02:35:14.593Z",
   "models": [
     "gemini-3.1-flash-lite",
     "gemini-3.5-flash-lite",
-    "gemini-3.5-flash",
     "gemini-flash-lite-latest"
   ],
   "blocked": [
