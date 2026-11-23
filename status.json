@@ -1,26 +1,26 @@
 {
-  "updated": "2026-11-22T02:39:33.654Z",
+  "updated": "2026-11-23T02:34:11.400Z",
   "models": {
     "gemini-3.1-flash-lite": {
       "accuracy": 1,
-      "medianMs": 1345,
-      "lastRun": "2026-11-22T02:39:33.654Z",
-      "okRuns": 8,
+      "medianMs": 1757,
+      "lastRun": "2026-11-23T02:34:11.400Z",
+      "okRuns": 9,
       "failRuns": 0,
-      "lastOk": "2026-11-22T02:39:33.654Z"
+      "lastOk": "2026-11-23T02:34:11.400Z"
     },
     "gemini-3.5-flash-lite": {
       "accuracy": 1,
-      "medianMs": 1146,
-      "lastRun": "2026-11-22T02:39:33.654Z",
-      "okRuns": 5,
+      "medianMs": 1115,
+      "lastRun": "2026-11-23T02:34:11.400Z",
+      "okRuns": 6,
       "failRuns": 0,
-      "lastOk": "2026-11-22T02:39:33.654Z"
+      "lastOk": "2026-11-23T02:34:11.400Z"
     },
     "gemini-flash-lite-latest": {
-      "accuracy": 0.6,
-      "medianMs": 1062,
-      "lastRun": "2026-11-22T02:39:33.654Z",
+      "accuracy": 0.4,
+      "medianMs": 1075,
+      "lastRun": "2026-11-23T02:34:11.400Z",
       "okRuns": 1,
       "failRuns": 0,
       "lastOk": "2026-11-19T02:35:14.593Z",
@@ -29,9 +29,9 @@
     "gemini-flash-latest": {
       "accuracy": 0,
       "medianMs": 0,
-      "lastRun": "2026-11-22T02:39:33.654Z",
+      "lastRun": "2026-11-23T02:34:11.400Z",
       "okRuns": 0,
-      "failRuns": 32,
+      "failRuns": 33,
       "lastOk": null,
       "gone": false,
       "note": "fejl"
@@ -39,9 +39,9 @@
     "gemini-2.5-flash": {
       "accuracy": 0,
       "medianMs": 0,
-      "lastRun": "2026-11-22T02:39:33.654Z",
+      "lastRun": "2026-11-23T02:34:11.400Z",
       "okRuns": 0,
-      "failRuns": 33,
+      "failRuns": 34,
       "lastOk": null,
       "gone": true,
       "note": "findes ikke (404)"
@@ -49,37 +49,38 @@
     "gemini-2.5-flash-lite": {
       "accuracy": 0,
       "medianMs": 0,
-      "lastRun": "2026-11-22T02:39:33.654Z",
+      "lastRun": "2026-11-23T02:34:11.400Z",
       "okRuns": 0,
-      "failRuns": 33,
+      "failRuns": 34,
       "lastOk": null,
       "gone": true,
       "note": "findes ikke (404)"
     },
     "gemini-3.5-flash": {
       "accuracy": 1,
-      "medianMs": 1513,
-      "lastRun": "2026-11-22T02:39:33.654Z",
-      "okRuns": 1,
+      "medianMs": 975,
+      "lastRun": "2026-11-23T02:34:11.400Z",
+      "okRuns": 2,
       "failRuns": 0,
-      "lastOk": "2026-11-22T02:39:33.654Z"
+      "lastOk": "2026-11-23T02:34:11.400Z"
     },
     "gemini-omni-1.1-flash": {
       "okRuns": 0,
       "failRuns": 0,
       "accuracy": 0,
       "medianMs": 0,
-      "lastRun": "2026-11-22T02:39:33.654Z",
+      "lastRun": "2026-11-23T02:34:11.400Z",
       "note": "bremset"
     }
   },
   "config": {
     "version": 1,
-    "updated": "2026-11-22T02:39:33.654Z",
+    "updated": "2026-11-23T02:34:11.400Z",
     "models": [
       "gemini-3.1-flash-lite",
       "gemini-3.5-flash-lite",
-      "gemini-flash-lite-latest"
+      "gemini-flash-lite-latest",
+      "gemini-3.5-flash"
     ],
     "blocked": [
       "gemini-2.5-flash",
