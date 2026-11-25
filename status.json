@@ -1,49 +1,48 @@
 {
-  "updated": "2026-11-24T02:32:29.478Z",
+  "updated": "2026-11-25T02:38:29.447Z",
   "models": {
     "gemini-3.1-flash-lite": {
       "accuracy": 1,
-      "medianMs": 1203,
-      "lastRun": "2026-11-24T02:32:29.478Z",
-      "okRuns": 10,
+      "medianMs": 2688,
+      "lastRun": "2026-11-25T02:38:29.447Z",
+      "okRuns": 11,
       "failRuns": 0,
-      "lastOk": "2026-11-24T02:32:29.478Z"
+      "lastOk": "2026-11-25T02:38:29.447Z"
+    },
+    "gemini-flash-lite-latest": {
+      "accuracy": 1,
+      "medianMs": 1226,
+      "lastRun": "2026-11-25T02:38:29.447Z",
+      "okRuns": 2,
+      "failRuns": 0,
+      "lastOk": "2026-11-25T02:38:29.447Z"
     },
     "gemini-3.5-flash-lite": {
-      "accuracy": 0.8,
-      "medianMs": 1436,
-      "lastRun": "2026-11-24T02:32:29.478Z",
+      "accuracy": 0.6,
+      "medianMs": 1050,
+      "lastRun": "2026-11-25T02:38:29.447Z",
       "okRuns": 0,
       "failRuns": 1,
       "lastOk": "2026-11-23T02:34:11.400Z",
       "gone": false,
-      "note": "fejl"
-    },
-    "gemini-flash-lite-latest": {
-      "accuracy": 0.6,
-      "medianMs": 1565,
-      "lastRun": "2026-11-24T02:32:29.478Z",
-      "okRuns": 1,
-      "failRuns": 0,
-      "lastOk": "2026-11-19T02:35:14.593Z",
       "note": "bremset"
     },
     "gemini-3.5-flash": {
-      "accuracy": 0.8,
-      "medianMs": 8942,
-      "lastRun": "2026-11-24T02:32:29.478Z",
+      "accuracy": 1,
+      "medianMs": 18049,
+      "lastRun": "2026-11-25T02:38:29.447Z",
       "okRuns": 0,
-      "failRuns": 1,
+      "failRuns": 2,
       "lastOk": "2026-11-23T02:34:11.400Z",
       "gone": false,
-      "note": "fejl"
+      "note": "for langsom"
     },
     "gemini-flash-latest": {
       "accuracy": 0,
       "medianMs": 0,
-      "lastRun": "2026-11-24T02:32:29.478Z",
+      "lastRun": "2026-11-25T02:38:29.447Z",
       "okRuns": 0,
-      "failRuns": 34,
+      "failRuns": 35,
       "lastOk": null,
       "gone": false,
       "note": "fejl"
@@ -51,9 +50,9 @@
     "gemini-2.5-flash": {
       "accuracy": 0,
       "medianMs": 0,
-      "lastRun": "2026-11-24T02:32:29.478Z",
+      "lastRun": "2026-11-25T02:38:29.447Z",
       "okRuns": 0,
-      "failRuns": 35,
+      "failRuns": 36,
       "lastOk": null,
       "gone": true,
       "note": "findes ikke (404)"
@@ -61,9 +60,9 @@
     "gemini-2.5-flash-lite": {
       "accuracy": 0,
       "medianMs": 0,
-      "lastRun": "2026-11-24T02:32:29.478Z",
+      "lastRun": "2026-11-25T02:38:29.447Z",
       "okRuns": 0,
-      "failRuns": 35,
+      "failRuns": 36,
       "lastOk": null,
       "gone": true,
       "note": "findes ikke (404)"
@@ -73,18 +72,17 @@
       "failRuns": 0,
       "accuracy": 0,
       "medianMs": 0,
-      "lastRun": "2026-11-24T02:32:29.478Z",
+      "lastRun": "2026-11-25T02:38:29.447Z",
       "note": "bremset"
     }
   },
   "config": {
     "version": 1,
-    "updated": "2026-11-24T02:32:29.478Z",
+    "updated": "2026-11-25T02:38:29.447Z",
     "models": [
       "gemini-3.1-flash-lite",
       "gemini-flash-lite-latest",
-      "gemini-3.5-flash-lite",
-      "gemini-3.5-flash"
+      "gemini-3.5-flash-lite"
     ],
     "blocked": [
       "gemini-2.5-flash",
